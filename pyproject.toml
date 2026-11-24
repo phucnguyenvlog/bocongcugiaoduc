@@ -1,0 +1,7 @@
+[project]
+name = "tao-de-tts"
+version = "1.0.0"
+dependencies = ["edge-tts"]
+
+[tool.vercel]
+entrypoint = "api.tts:handler"

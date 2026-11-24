@@ -1,0 +1,14 @@
+{
+  "functions": {
+    "api/tts.py": {
+      "maxDuration": 60,
+      "includeFiles": "index.html"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/d/:code",
+      "destination": "/api/tts?d=:code"
+    }
+  ]
+}
